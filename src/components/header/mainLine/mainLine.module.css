@@ -1,0 +1,79 @@
+.mainLine {
+    display: grid;
+    grid-template-columns: min-content 1fr min-content min-content;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* Логотип */
+.logo {
+    display: grid;
+    grid-template-columns: min-content min-content;
+    align-items: center;
+    justify-self: start;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.logo img {
+    margin-right: 15px;
+}
+
+/* Поиск */
+.search-block {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    justify-items: center;
+    justify-self: center;
+    height: 40px;
+    width: 80% !important;
+    max-width: 600px;
+}
+
+.search-block-input {
+    display: grid;
+    align-items: center;
+    width: 100%;
+    border: 2px solid #7AC751;
+    border-radius: 10px 0 0 10px;
+}
+
+.search-block-input input {
+    border: none;
+    font-size: 14px;
+    margin-left: 10px;
+    justify-self: left;
+    padding-right: 10px;
+    width: 80%;
+    outline: none;
+}
+
+.search-icon {
+    background-color: #7AC751;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-self: start;
+    height: 42px;
+    width: 55px;
+    border-radius: 0 10px 10px 0;
+}
+
+/* Иконки */
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: end;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.icons img {
+    margin: 0 0 0 30px;
+    cursor: pointer;
+}
+
+
+

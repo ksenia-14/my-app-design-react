@@ -1,13 +1,13 @@
-import style from './header.module.css'
+import GreenLine from './greenLine/GreenLine'
+import MainLine from './mainLine/MainLine'
+import MenuLine from './menuLine/MenuLine'
 
 const Header = () => {
     return(
         <header className="app">
-            <h1 className={style.logo}>ITECH</h1>
-            <nav>
-            <a className={style['nav-item']} href=''>ИЗБРАННОЕ</a>
-            <a className={style['nav-item']} href=''>КОРЗИНА</a>
-            </nav>
+            <GreenLine/>
+            <MainLine/>
+            <MenuLine/>
         </header>
     )
 }

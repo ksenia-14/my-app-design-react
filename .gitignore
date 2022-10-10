@@ -1,1 +1,14 @@
+<<<<<<< HEAD
 node_modules
+=======
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+>>>>>>> a685627ed11efff9f0cf7d580cdb46ce577973e6
